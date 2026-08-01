@@ -1,5 +1,4 @@
-# Css-Animation-Revision
-# CSS Animation — Revision Notes
+ # CSS Animation — Revision Notes
 
 Personal revision notes on CSS animations, based on the course **"Learn to Make Animations Using CSS" by Swaraj Singh**.
 📎 Course reference: [Notion link](https://app.notion.com/p/Learn-to-Make-Animations-Using-CSS-by-Swaraj-Singh-3ac69b6210fc8092b3d4e7d10f277cb2?source=copy_link)
