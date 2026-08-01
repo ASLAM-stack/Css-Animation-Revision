@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #010101;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background:red;
+    overflow: hidden;
+}
+.img_box{
+     transition: background-color 0.9s ease-out,scale 0.6s ease-in-out;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: scale 0.6s ease-in-out;
+}
+.box:hover img{
+     
+    scale: 1.3;
+}
+.blank_box{
+    transition: transform 0.5s cubic-bezier(.05,.81,.83,-0.09);
+}
+.blank_box:hover{
+    transform: translateX(20px) rotate(-10deg) scale(1.2);
+    transform-origin: top right;
+}
